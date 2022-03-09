@@ -64,7 +64,7 @@ class KeyAttribute(factory.LazyAttributeSequence):
                 key_id,
                 parent=key_parent
             )
-        super(KeyAttribute, self).__init__(function=key_func, type=type)
+        super(KeyAttribute, self).__init__(function=key_func)
 
 
 class NDBFactoryMetaClass(FactoryMetaClass):
